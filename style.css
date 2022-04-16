@@ -1,0 +1,101 @@
+body{
+    margin: 0;
+    padding-top: 550px;
+    text-align: center;
+font-family: 'Hurricane', cursive;
+}
+.profile{
+    border-radius: 50%;
+}
+#welcome{
+    position: absolute;
+    bottom: 0;
+    
+    display: table;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(#808080 0% ,#FFFF00 100%);
+    z-index:  9;
+}
+h1{
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 300px;
+
+}
+#name{
+    font-size: 50px;
+    font-family: cursive;
+
+}
+h2{
+    font-size: 30px;
+    font-weight: 300;
+font-family: monospace;
+}
+#bio{
+    font-family: cursive;
+    padding: 50px;
+}
+.line{
+    height: 6px;
+background-color: black;
+width: 70px;
+margin: 8px auto;
+}
+.pandallax-inner{
+    display: table-cell;
+    vertical-align: middle;
+    
+}
+#para
+{
+    color: black;
+    font-family: 'Hurricane', cursive;
+    font-size: 40px;
+}
+.menu{
+    
+    position: fixed;
+    top:0px;
+    right: 0px;
+    cursor: pointer;
+    z-index: 10;
+    margin-top:0px ;
+    background-color: white;
+    width: 100%;
+}
+.link{
+    display: inline;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    padding-left: 9px;
+    padding-right: 9px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family:cursive ;
+}
+
+a{
+   text-decoration: none;
+
+    
+}
+.link:hover
+{
+    font-size: 25;
+    text-decoration: underline;
+}
+#writtings a{
+    text-decoration: underline !important;
+    color: green !important;
+}
+.contact h3{
+    display: inline;
+    
+}
+#contact
+{
+    background-color: beige;
+    
+}
